@@ -129,11 +129,12 @@ body {
 }
 
 .buttons{
-    display: flex;
+    display: block;
     justify-content: center;
     flex-direction: row;
     gap: 30px;
     margin-top: 1rem;
+    
     
    
     
@@ -495,7 +496,16 @@ body {
     background-color: #f4f4f4;
     padding: 20px;
 }
+.contact-section{
+    margin-top: 4rem;
+}
+.interests-grid{
+    margin-top: 4rem;
+}
+.education-grid{
+    margin-top: 4rem;
 
+}
 /* Contact Info Styling */
 .contact-info {
     background:#d6d2d2;
