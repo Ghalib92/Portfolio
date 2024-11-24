@@ -11,17 +11,16 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     background-color: black;
     padding: .5rem;
     position: fixed;
     width: 100%;
-    margin: 0;
+    margin: 0 !important;
 }
 
 .navbar .logo {
     color: orange;
-    font-size: .5rem;
+    font-size: .9rem;
     font-weight: bold;
     flex: 100px;
 }
@@ -80,7 +79,7 @@ body {
 }
 .par-1{
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
     margin-left: -10px;
 }
  
@@ -164,7 +163,7 @@ body {
     background-color:black;
     color: #fff;
     padding: 20px 10px;
-    font-size: 10px;
+    font-size: 14x;
     line-height: 1;
     margin-top: 3.8rem;
     
@@ -218,7 +217,7 @@ body {
     margin-top: 20px;
     border-top: 1px solid #444;
     padding-top: 10px;
-    font-size: 12px;
+    font-size: 14px;
     color: #aaa;
 }
 
@@ -313,7 +312,7 @@ body {
     color: white;
     border-radius: 15px;
     text-align: center;
-    font-size: 12px;
+    font-size: 14px;
 }
     h3{
         color: orange;
@@ -350,7 +349,7 @@ body {
         background-color: #d6d2d2;
         border-radius: 10px;
         box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        font-size: 11px;
+        font-size: 14px;
     }
     
     .edu-image, .project-content img, .interest-item img {
@@ -428,7 +427,7 @@ body {
 .contact-form label {
     display: block;
     margin-bottom: 8px;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: bold;
     color: #333;
 }
@@ -439,7 +438,7 @@ body {
     padding: 10px 15px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    font-size: 14px;
+    font-size: 15px;
     background-color: #fafafa;
     transition: all 0.3s ease;
 }
