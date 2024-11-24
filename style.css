@@ -241,10 +241,12 @@ body {
 
     .nav-links.active {
         display: flex;
+        color: red;
     }
 
     .hamburger {
         display: block;
+        margin-right: 2rem;
     }
     
 }
